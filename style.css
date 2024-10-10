@@ -1,0 +1,90 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(129, 220, 245) , rgb(0, 255, 255));
+}
+.typing-section{
+    text-align: center;
+}
+
+#textarea{
+    border: .1rem solid white;
+    border-radius: 1rem;
+    max-width: 50rem;
+    width: 50rem;
+    height: 20rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+}
+
+#btn{
+    display: inline-block;
+    padding: 1rem 2.4rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: black;
+    color: #fff;
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    color:black ;
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+
+#showSentence,#score{
+    font-size: 2rem;
+    margin: 2rem 0;
+    letter-spacing: .02rem;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.timer-div{
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content:center;
+}
+#show-time{
+    font-size: 2.4rem;
+    padding: 1.5rem;
+    text-align: right;
+    width: 6rem;
+    height: 6rem;
+    place-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 50%;
+    border: .5rem solid black;
+
+}
+
+@media screen and (max-width:600px){
+    #textarea{
+        
+        
+        max-width: 30rem;
+        width: 30rem;
+        height: 20rem;
+        
+    }
+}
